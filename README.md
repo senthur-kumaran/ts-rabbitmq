@@ -1,6 +1,6 @@
-# Express TypeScript Project with ESLint and Prettier
+# Express TypeScript Rascal Project with ESLint and Prettier
 
-This project is a template for building Express applications using TypeScript, ESLint, and Prettier.
+This project is for building Express applications using TypeScript, Rascal, ESLint, and Prettier.
 
 ## Prerequisites
 
@@ -10,33 +10,35 @@ This project is a template for building Express applications using TypeScript, E
 ## Setting up the Project
 
 1. Clone the repository:
-$ git clone git@github.com:senthur-kumaran/ts-rabbitmq.git
+$`git clone git@github.com:senthur-kumaran/ts-rabbitmq.git`
 
 
 2. Change into the project directory:
-$ ts-rabbitmq
+$` cd ts-rabbitmq`
 
 
 3. Install the dependencies:
-$ npm install
+$`npm install`
 
 
 ## Running the Development Server
 To start the development server, run:
-$ npm start
+$`npm start`
+
+$`npm run start:worker`
 
 
 This will start the server using `nodemon`, which will automatically restart the server whenever changes are made to the code.
 ## Linting and Formatting
 The project uses ESLint and Prettier for linting and formatting, respectively. To run the linter, use the following command:
-$ npm run lint
+$`npm run lint`
 
 To format the code, use the following command:
-$ npm run format
+$`npm run format`
 
 ## Building for Production
 To build the project for production, run:
-$ npm run build
+$`npm run build`
 
 
 This will compile the TypeScript code into JavaScript and create a `dist` directory with the compiled files.
