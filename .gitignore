@@ -1,0 +1,14 @@
+node_modules/
+dist/
+npm-debug.log
+.env
+.DS_Store
+
+# Linting files
+.eslintcache
+.prettierrc.js
+
+# TypeScript files
+*.js
+*.js.map
+*.d.ts
