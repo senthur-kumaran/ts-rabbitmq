@@ -7,8 +7,9 @@
     "build": "tsc",
     "start": "nodemon --watch src --exec \"ts-node src/index.ts\"",
     "start:worker": "nodemon --watch src --exec \"ts-node src/rabbitmq/worker.ts\"",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint . --fix",
+    "lint:prettier": "prettier --check '**/*.{js,json,ts,tsx}'",
     "lint-commit": "commitlint --from=HEAD^"
   },
   "repository": {
