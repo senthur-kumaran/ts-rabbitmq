@@ -23,6 +23,7 @@ $`npm install`
 
 ## Running the Development Server
 To start the development server, run:
+
 $`npm start`
 
 $`npm run start:worker`
