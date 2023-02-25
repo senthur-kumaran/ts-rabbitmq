@@ -21,7 +21,7 @@ jobs:
       run: npm ci
 
     - name: Lint commits
-      run: npm run commitlint
+      run: npm run lint-commit
 
     - name: Lint with eslint
       run: npm run lint
