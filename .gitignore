@@ -9,6 +9,5 @@ npm-debug.log
 .prettierrc.js
 
 # TypeScript files
-*.js
 *.js.map
 *.d.ts
