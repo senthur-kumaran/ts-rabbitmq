@@ -20,6 +20,3 @@ jobs:
 
     - name: Lint with eslint
       run: npm run lint
-
-    - name: Lint commit messages with commitlint
-      run: npm run lint-commit

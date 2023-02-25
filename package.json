@@ -9,8 +9,7 @@
     "start:worker": "nodemon --watch src --exec \"ts-node src/rabbitmq/worker.ts\"",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint src/*.ts --fix",
-    "lint:prettier": "prettier --check '**/*.{js,json,ts,tsx}'",
-    "lint-commit": "commitlint --from=HEAD^"
+    "lint:prettier": "prettier --check '**/*.{js,json,ts,tsx}'"
   },
   "repository": {
     "type": "git",
