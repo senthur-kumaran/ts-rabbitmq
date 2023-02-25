@@ -19,7 +19,7 @@ jobs:
       run: npm ci
 
     - name: Lint commits
-      run: npx commitlint --from=HEAD^
+      run: npx commitlint
 
     - name: Lint with eslint
       run: npm run lint
